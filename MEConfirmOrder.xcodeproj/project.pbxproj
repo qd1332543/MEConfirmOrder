@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037320A8AEF9A332F11360F3 /* libPods-MEConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708AC345C2F4490F168F3E53 /* libPods-MEConfirmOrder.a */; };
+		1B427313ADF3B73E20DA720A /* libPods-MEConfirmOrderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CBE3FF9FB7BF3B569A938A /* libPods-MEConfirmOrderTests.a */; };
 		2CCB6BA21EA60EA3004802B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA11EA60EA3004802B5 /* main.m */; };
 		2CCB6BA51EA60EA3004802B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA41EA60EA3004802B5 /* AppDelegate.m */; };
 		2CCB6BA81EA60EA3004802B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA71EA60EA3004802B5 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		2CCB6BB01EA60EA3004802B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB6BAE1EA60EA3004802B5 /* LaunchScreen.storyboard */; };
 		2CCB6BBB1EA60EA3004802B5 /* MEConfirmOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BBA1EA60EA3004802B5 /* MEConfirmOrderTests.m */; };
 		2CCB6BC61EA60EA3004802B5 /* MEConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BC51EA60EA3004802B5 /* MEConfirmOrderUITests.m */; };
+		2CCB6BD61EA60EE0004802B5 /* MEConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BD51EA60EE0004802B5 /* MEConfirmOrderViewController.m */; };
+		2CCB6BD91EA60EFD004802B5 /* MEConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BD81EA60EFD004802B5 /* MEConfirmOrderServiceProvide.m */; };
+		A975DB7E358B144BBAE44714 /* libPods-MEConfirmOrderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5C1E22884E68F8EE08BF59 /* libPods-MEConfirmOrderUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25CBE3FF9FB7BF3B569A938A /* libPods-MEConfirmOrderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEConfirmOrderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCB6B9D1EA60EA3004802B5 /* MEConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCB6BA11EA60EA3004802B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CCB6BA31EA60EA3004802B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,18 @@
 		2CCB6BC11EA60EA3004802B5 /* MEConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCB6BC51EA60EA3004802B5 /* MEConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEConfirmOrderUITests.m; sourceTree = "<group>"; };
 		2CCB6BC71EA60EA3004802B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCB6BD41EA60EE0004802B5 /* MEConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEConfirmOrderViewController.h; sourceTree = "<group>"; };
+		2CCB6BD51EA60EE0004802B5 /* MEConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEConfirmOrderViewController.m; sourceTree = "<group>"; };
+		2CCB6BD71EA60EFD004802B5 /* MEConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		2CCB6BD81EA60EFD004802B5 /* MEConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
+		4382D5F7C42FDA4863685208 /* Pods-MEConfirmOrderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEConfirmOrderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEConfirmOrderUITests/Pods-MEConfirmOrderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0DDC77E4D028B04B952368 /* Pods-MEConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEConfirmOrder/Pods-MEConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		7065B510DAEF8DD9EDCD8E67 /* Pods-MEConfirmOrderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEConfirmOrderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEConfirmOrderUITests/Pods-MEConfirmOrderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		708AC345C2F4490F168F3E53 /* libPods-MEConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6ED78B49A2F16BA128D366 /* Pods-MEConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEConfirmOrder/Pods-MEConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		BD92DBB8057859138878017F /* Pods-MEConfirmOrderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEConfirmOrderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEConfirmOrderTests/Pods-MEConfirmOrderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5C1E22884E68F8EE08BF59 /* libPods-MEConfirmOrderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEConfirmOrderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4EBA7CDC17C49F4F986320 /* Pods-MEConfirmOrderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEConfirmOrderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEConfirmOrderTests/Pods-MEConfirmOrderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037320A8AEF9A332F11360F3 /* libPods-MEConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B427313ADF3B73E20DA720A /* libPods-MEConfirmOrderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A975DB7E358B144BBAE44714 /* libPods-MEConfirmOrderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				2CCB6BB91EA60EA3004802B5 /* MEConfirmOrderTests */,
 				2CCB6BC41EA60EA3004802B5 /* MEConfirmOrderUITests */,
 				2CCB6B9E1EA60EA3004802B5 /* Products */,
+				F44789967BA06B4A8566D40E /* Pods */,
+				38332ECFFF464D4612012EAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,7 @@
 		2CCB6B9F1EA60EA3004802B5 /* MEConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				2CCB6BD31EA60EC2004802B5 /* MEConfirmOrder */,
 				2CCB6BA31EA60EA3004802B5 /* AppDelegate.h */,
 				2CCB6BA41EA60EA3004802B5 /* AppDelegate.m */,
 				2CCB6BA61EA60EA3004802B5 /* ViewController.h */,
@@ -140,6 +164,40 @@
 			path = MEConfirmOrderUITests;
 			sourceTree = "<group>";
 		};
+		2CCB6BD31EA60EC2004802B5 /* MEConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB6BD41EA60EE0004802B5 /* MEConfirmOrderViewController.h */,
+				2CCB6BD51EA60EE0004802B5 /* MEConfirmOrderViewController.m */,
+				2CCB6BD71EA60EFD004802B5 /* MEConfirmOrderServiceProvide.h */,
+				2CCB6BD81EA60EFD004802B5 /* MEConfirmOrderServiceProvide.m */,
+			);
+			path = MEConfirmOrder;
+			sourceTree = "<group>";
+		};
+		38332ECFFF464D4612012EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				708AC345C2F4490F168F3E53 /* libPods-MEConfirmOrder.a */,
+				25CBE3FF9FB7BF3B569A938A /* libPods-MEConfirmOrderTests.a */,
+				CB5C1E22884E68F8EE08BF59 /* libPods-MEConfirmOrderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44789967BA06B4A8566D40E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6ED78B49A2F16BA128D366 /* Pods-MEConfirmOrder.debug.xcconfig */,
+				5E0DDC77E4D028B04B952368 /* Pods-MEConfirmOrder.release.xcconfig */,
+				BD92DBB8057859138878017F /* Pods-MEConfirmOrderTests.debug.xcconfig */,
+				EC4EBA7CDC17C49F4F986320 /* Pods-MEConfirmOrderTests.release.xcconfig */,
+				4382D5F7C42FDA4863685208 /* Pods-MEConfirmOrderUITests.debug.xcconfig */,
+				7065B510DAEF8DD9EDCD8E67 /* Pods-MEConfirmOrderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CCB6BCA1EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrder" */;
 			buildPhases = (
+				5291D36E1B62E61ADAEF1090 /* [CP] Check Pods Manifest.lock */,
 				2CCB6B991EA60EA3004802B5 /* Sources */,
 				2CCB6B9A1EA60EA3004802B5 /* Frameworks */,
 				2CCB6B9B1EA60EA3004802B5 /* Resources */,
+				FB28489C7D24735CB2717D1A /* [CP] Embed Pods Frameworks */,
+				E0404F8018CF0D7B1E0DAC12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CCB6BCD1EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrderTests" */;
 			buildPhases = (
+				EEDA3A21567468A19E43519C /* [CP] Check Pods Manifest.lock */,
 				2CCB6BB21EA60EA3004802B5 /* Sources */,
 				2CCB6BB31EA60EA3004802B5 /* Frameworks */,
 				2CCB6BB41EA60EA3004802B5 /* Resources */,
+				CA20AE5647F268A1CD81B55C /* [CP] Embed Pods Frameworks */,
+				2A14C9368ADA34437E7126CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CCB6BD01EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrderUITests" */;
 			buildPhases = (
+				BD8022376C2719E91F417BA4 /* [CP] Check Pods Manifest.lock */,
 				2CCB6BBD1EA60EA3004802B5 /* Sources */,
 				2CCB6BBE1EA60EA3004802B5 /* Frameworks */,
 				2CCB6BBF1EA60EA3004802B5 /* Resources */,
+				C7688941BAAD7643E897B125 /* [CP] Embed Pods Frameworks */,
+				EC51B67FC2A87A738B169207 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,13 +338,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A14C9368ADA34437E7126CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEConfirmOrderTests/Pods-MEConfirmOrderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5291D36E1B62E61ADAEF1090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8022376C2719E91F417BA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7688941BAAD7643E897B125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEConfirmOrderUITests/Pods-MEConfirmOrderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA20AE5647F268A1CD81B55C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEConfirmOrderTests/Pods-MEConfirmOrderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0404F8018CF0D7B1E0DAC12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEConfirmOrder/Pods-MEConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC51B67FC2A87A738B169207 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEConfirmOrderUITests/Pods-MEConfirmOrderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDA3A21567468A19E43519C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB28489C7D24735CB2717D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEConfirmOrder/Pods-MEConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CCB6B991EA60EA3004802B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCB6BD61EA60EE0004802B5 /* MEConfirmOrderViewController.m in Sources */,
 				2CCB6BA81EA60EA3004802B5 /* ViewController.m in Sources */,
 				2CCB6BA51EA60EA3004802B5 /* AppDelegate.m in Sources */,
+				2CCB6BD91EA60EFD004802B5 /* MEConfirmOrderServiceProvide.m in Sources */,
 				2CCB6BA21EA60EA3004802B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +632,7 @@
 		};
 		2CCB6BCB1EA60EA3004802B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6ED78B49A2F16BA128D366 /* Pods-MEConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWGDL4KU3D;
@@ -437,6 +645,7 @@
 		};
 		2CCB6BCC1EA60EA3004802B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0DDC77E4D028B04B952368 /* Pods-MEConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWGDL4KU3D;
@@ -449,6 +658,7 @@
 		};
 		2CCB6BCE1EA60EA3004802B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD92DBB8057859138878017F /* Pods-MEConfirmOrderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZWGDL4KU3D;
@@ -462,6 +672,7 @@
 		};
 		2CCB6BCF1EA60EA3004802B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4EBA7CDC17C49F4F986320 /* Pods-MEConfirmOrderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZWGDL4KU3D;
@@ -475,6 +686,7 @@
 		};
 		2CCB6BD11EA60EA3004802B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4382D5F7C42FDA4863685208 /* Pods-MEConfirmOrderUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZWGDL4KU3D;
 				INFOPLIST_FILE = MEConfirmOrderUITests/Info.plist;
@@ -487,6 +699,7 @@
 		};
 		2CCB6BD21EA60EA3004802B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7065B510DAEF8DD9EDCD8E67 /* Pods-MEConfirmOrderUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZWGDL4KU3D;
 				INFOPLIST_FILE = MEConfirmOrderUITests/Info.plist;

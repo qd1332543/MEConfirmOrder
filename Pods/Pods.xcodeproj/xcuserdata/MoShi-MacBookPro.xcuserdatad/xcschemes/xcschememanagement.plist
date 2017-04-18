@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MEProtocolManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MEConfirmOrder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MEConfirmOrderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MEConfirmOrderUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>69A10F6DFFC0B8769C3B0680ED128263</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EA4E62922A5F3E534B54D65E2F26FF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEAB383D11ED1DD9A9F97ABBE700A683</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B42A6F9F16AE3E700BE9C2ACF317FB4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01177237048D8D369D0D119E48137E7D /* Pods-MEConfirmOrderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E4915DA00A36E6A86B75541DA5F81 /* Pods-MEConfirmOrderUITests-dummy.m */; };
+		191DAD12E653BF9507C914F33C1C5A65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		253F26AA5DD88BC4000C0A1E3EED0D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		49780F3D9A6006D3189ADFEDC550A680 /* MEProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87AB42E760D9B5A75117D611E088E0 /* MEProtocolManager-dummy.m */; };
+		54A0E293319E254A0ACF425F003E9134 /* MEProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 631FD90275805A6901CE9D7417114E9A /* MEProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		589C1607DA245292BE34EF8F50C4E91C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9BD0E81964D9FE09DE30E2C1945EB27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AE852EDEDA0A85C0C09E14540305BE92 /* Pods-MEConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE19B36AD054D3096094D71B757AE52 /* Pods-MEConfirmOrder-dummy.m */; };
+		C0FBA8C2AF3D267032E1772DFA1167C7 /* MEProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5903EB7A5F3AA90A78AE353FEDD7D /* MEProtocolManager.m */; };
+		EAD9A84D0C4676D24D8FF40194F5E261 /* Pods-MEConfirmOrderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A2A83AC2BFDCF3E63C801A083459C /* Pods-MEConfirmOrderTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06ABE5D8E367A8A6D21D4117B66B1291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A10F6DFFC0B8769C3B0680ED128263;
+			remoteInfo = MEProtocolManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033E4915DA00A36E6A86B75541DA5F81 /* Pods-MEConfirmOrderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEConfirmOrderUITests-dummy.m"; sourceTree = "<group>"; };
+		06471C5E1EB8B4BF110951C2C74A66AB /* Pods-MEConfirmOrderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEConfirmOrderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F325D69F89D4CF2C9324DAC08CC4528 /* Pods-MEConfirmOrderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEConfirmOrderTests.release.xcconfig"; sourceTree = "<group>"; };
+		115AB60A63ACC4A27F6FB6B7DC23BC85 /* MEConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEConfirmOrderServiceProtocol.h; path = MEConfirmOrderServiceProtocol/MEConfirmOrderServiceProtocol/MEConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
+		126B9D44D9AA5ECE7515C15D94F8C690 /* Pods-MEConfirmOrder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEConfirmOrder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17DEC740C802F956589A962D5B5AE745 /* libPods-MEConfirmOrderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MEConfirmOrderUITests.a"; path = "libPods-MEConfirmOrderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B32D05CF9C1A61077A7A2D828EE31 /* Pods-MEConfirmOrderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEConfirmOrderUITests-resources.sh"; sourceTree = "<group>"; };
+		29C09C408CC3317E0D55C743BA0896F9 /* Pods-MEConfirmOrderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEConfirmOrderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33A2ACBB8384C6E32DE05ED8831AD0FA /* Pods-MEConfirmOrder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEConfirmOrder-resources.sh"; sourceTree = "<group>"; };
+		36B7054BA227B534C87C864FA4F2E3F6 /* Pods-MEConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		3FEEE93E1A8B5E5E82FC0766BBADF1E3 /* Pods-MEConfirmOrderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEConfirmOrderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4357E274DD976C711C82FFED0F9684A5 /* Pods-MEConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		57DFE309A0C854A24CC5CF92E097DEEF /* Pods-MEConfirmOrder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEConfirmOrder-acknowledgements.plist"; sourceTree = "<group>"; };
+		631FD90275805A6901CE9D7417114E9A /* MEProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEProtocolManager.h; path = MEProtocolManager/MEProtocolManager/MEProtocolManager.h; sourceTree = "<group>"; };
+		65474A5F5964D78F076B52CC70CCE4F4 /* MEProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEProtocolManager.xcconfig; sourceTree = "<group>"; };
+		66DF6C973F2FEE87002AC0FBC159096E /* libMEProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMEProtocolManager.a; path = libMEProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67247D06633C1D7F071211287E40EC68 /* Pods-MEConfirmOrderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEConfirmOrderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		686B78C5753BBBAE2E638377D75920EA /* Pods-MEConfirmOrderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEConfirmOrderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AE282C1ED8C43E2F3A22FB19DC1FF55 /* Pods-MEConfirmOrderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEConfirmOrderTests-resources.sh"; sourceTree = "<group>"; };
+		6C82B78CE1F6D07BA656049BB24C14DB /* libPods-MEConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MEConfirmOrder.a"; path = "libPods-MEConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D2FCED512AC379A0126BCCEC1EB65F /* Pods-MEConfirmOrderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEConfirmOrderTests-frameworks.sh"; sourceTree = "<group>"; };
+		7A87AB42E760D9B5A75117D611E088E0 /* MEProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE19B36AD054D3096094D71B757AE52 /* Pods-MEConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEConfirmOrder-dummy.m"; sourceTree = "<group>"; };
+		A1A241A2882C3B4A21C6DC3B8B41141E /* Pods-MEConfirmOrderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEConfirmOrderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C21697509E8A786C1105730D25D025D0 /* Pods-MEConfirmOrderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEConfirmOrderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C940F8C108BBA9AEE330953843E84158 /* MEProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCC5903EB7A5F3AA90A78AE353FEDD7D /* MEProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEProtocolManager.m; path = MEProtocolManager/MEProtocolManager/MEProtocolManager.m; sourceTree = "<group>"; };
+		E7E10710EA9EE72E81FC9D719ED8F452 /* Pods-MEConfirmOrder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEConfirmOrder-frameworks.sh"; sourceTree = "<group>"; };
+		EAC3A74ACF63212CFBDB7B3ADFA71AC1 /* Pods-MEConfirmOrderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEConfirmOrderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3A2A83AC2BFDCF3E63C801A083459C /* Pods-MEConfirmOrderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEConfirmOrderTests-dummy.m"; sourceTree = "<group>"; };
+		FEBE58FD67383502241B7A87683C0058 /* libPods-MEConfirmOrderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MEConfirmOrderTests.a"; path = "libPods-MEConfirmOrderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02799EC93B927BECA235A69F73534DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253F26AA5DD88BC4000C0A1E3EED0D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32651031691385968CEF52E9D09897DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589C1607DA245292BE34EF8F50C4E91C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47105004C653FBDF8A922D497015DFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191DAD12E653BF9507C914F33C1C5A65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529507F3708F90A885F2F77A3C29A737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD0E81964D9FE09DE30E2C1945EB27B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EF8FBD2E0C68AC43BF324969B1397A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DF6C973F2FEE87002AC0FBC159096E /* libMEProtocolManager.a */,
+				6C82B78CE1F6D07BA656049BB24C14DB /* libPods-MEConfirmOrder.a */,
+				FEBE58FD67383502241B7A87683C0058 /* libPods-MEConfirmOrderTests.a */,
+				17DEC740C802F956589A962D5B5AE745 /* libPods-MEConfirmOrderUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270DC405D70E3D3E567DD3A4F46603FE /* Pods-MEConfirmOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A241A2882C3B4A21C6DC3B8B41141E /* Pods-MEConfirmOrderTests-acknowledgements.markdown */,
+				29C09C408CC3317E0D55C743BA0896F9 /* Pods-MEConfirmOrderTests-acknowledgements.plist */,
+				ED3A2A83AC2BFDCF3E63C801A083459C /* Pods-MEConfirmOrderTests-dummy.m */,
+				77D2FCED512AC379A0126BCCEC1EB65F /* Pods-MEConfirmOrderTests-frameworks.sh */,
+				6AE282C1ED8C43E2F3A22FB19DC1FF55 /* Pods-MEConfirmOrderTests-resources.sh */,
+				EAC3A74ACF63212CFBDB7B3ADFA71AC1 /* Pods-MEConfirmOrderTests.debug.xcconfig */,
+				0F325D69F89D4CF2C9324DAC08CC4528 /* Pods-MEConfirmOrderTests.release.xcconfig */,
+			);
+			name = "Pods-MEConfirmOrderTests";
+			path = "Target Support Files/Pods-MEConfirmOrderTests";
+			sourceTree = "<group>";
+		};
+		473636128570088950D5DA4A45723887 /* Pods-MEConfirmOrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67247D06633C1D7F071211287E40EC68 /* Pods-MEConfirmOrderUITests-acknowledgements.markdown */,
+				686B78C5753BBBAE2E638377D75920EA /* Pods-MEConfirmOrderUITests-acknowledgements.plist */,
+				033E4915DA00A36E6A86B75541DA5F81 /* Pods-MEConfirmOrderUITests-dummy.m */,
+				3FEEE93E1A8B5E5E82FC0766BBADF1E3 /* Pods-MEConfirmOrderUITests-frameworks.sh */,
+				185B32D05CF9C1A61077A7A2D828EE31 /* Pods-MEConfirmOrderUITests-resources.sh */,
+				C21697509E8A786C1105730D25D025D0 /* Pods-MEConfirmOrderUITests.debug.xcconfig */,
+				06471C5E1EB8B4BF110951C2C74A66AB /* Pods-MEConfirmOrderUITests.release.xcconfig */,
+			);
+			name = "Pods-MEConfirmOrderUITests";
+			path = "Target Support Files/Pods-MEConfirmOrderUITests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D4AC0037755389B688296261AD6A6BD7 /* Pods */,
+				09EF8FBD2E0C68AC43BF324969B1397A /* Products */,
+				E770F55285F0210802B19114E1901763 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		900540ADF707D48860EDE603A11A0C34 /* Pods-MEConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				126B9D44D9AA5ECE7515C15D94F8C690 /* Pods-MEConfirmOrder-acknowledgements.markdown */,
+				57DFE309A0C854A24CC5CF92E097DEEF /* Pods-MEConfirmOrder-acknowledgements.plist */,
+				9FE19B36AD054D3096094D71B757AE52 /* Pods-MEConfirmOrder-dummy.m */,
+				E7E10710EA9EE72E81FC9D719ED8F452 /* Pods-MEConfirmOrder-frameworks.sh */,
+				33A2ACBB8384C6E32DE05ED8831AD0FA /* Pods-MEConfirmOrder-resources.sh */,
+				36B7054BA227B534C87C864FA4F2E3F6 /* Pods-MEConfirmOrder.debug.xcconfig */,
+				4357E274DD976C711C82FFED0F9684A5 /* Pods-MEConfirmOrder.release.xcconfig */,
+			);
+			name = "Pods-MEConfirmOrder";
+			path = "Target Support Files/Pods-MEConfirmOrder";
+			sourceTree = "<group>";
+		};
+		9AEB8E655D380C500F20B9E334F52E44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65474A5F5964D78F076B52CC70CCE4F4 /* MEProtocolManager.xcconfig */,
+				7A87AB42E760D9B5A75117D611E088E0 /* MEProtocolManager-dummy.m */,
+				C940F8C108BBA9AEE330953843E84158 /* MEProtocolManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MEProtocolManager";
+			sourceTree = "<group>";
+		};
+		A0CA2A13E5D8A4D2F22AB6E4E7A28865 /* MEProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				631FD90275805A6901CE9D7417114E9A /* MEProtocolManager.h */,
+				CCC5903EB7A5F3AA90A78AE353FEDD7D /* MEProtocolManager.m */,
+				9AEB8E655D380C500F20B9E334F52E44 /* Support Files */,
+			);
+			name = MEProtocolManager;
+			path = MEProtocolManager;
+			sourceTree = "<group>";
+		};
+		A60D85517BF56B85EEDF5E98A56A2954 /* MEConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				115AB60A63ACC4A27F6FB6B7DC23BC85 /* MEConfirmOrderServiceProtocol.h */,
+			);
+			name = MEConfirmOrderServiceProtocol;
+			path = MEConfirmOrderServiceProtocol;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4AC0037755389B688296261AD6A6BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60D85517BF56B85EEDF5E98A56A2954 /* MEConfirmOrderServiceProtocol */,
+				A0CA2A13E5D8A4D2F22AB6E4E7A28865 /* MEProtocolManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E770F55285F0210802B19114E1901763 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				900540ADF707D48860EDE603A11A0C34 /* Pods-MEConfirmOrder */,
+				270DC405D70E3D3E567DD3A4F46603FE /* Pods-MEConfirmOrderTests */,
+				473636128570088950D5DA4A45723887 /* Pods-MEConfirmOrderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3890E19692D2D318954F63ABEC88408 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A0E293319E254A0ACF425F003E9134 /* MEProtocolManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69A10F6DFFC0B8769C3B0680ED128263 /* MEProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14646F34D1477193CC25F78C0D683CD7 /* Build configuration list for PBXNativeTarget "MEProtocolManager" */;
+			buildPhases = (
+				8D905562DE42A42EDA30088D7F4A3BC4 /* Sources */,
+				32651031691385968CEF52E9D09897DB /* Frameworks */,
+				B3890E19692D2D318954F63ABEC88408 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEProtocolManager;
+			productName = MEProtocolManager;
+			productReference = 66DF6C973F2FEE87002AC0FBC159096E /* libMEProtocolManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EA4E62922A5F3E534B54D65E2F26FF7 /* Pods-MEConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA83071F76B8C160FE9421FA11B130D9 /* Build configuration list for PBXNativeTarget "Pods-MEConfirmOrder" */;
+			buildPhases = (
+				BECE4C5301CD2756F0B68F8AD15EDADC /* Sources */,
+				02799EC93B927BECA235A69F73534DE8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8505489D8AC56D0E89DE0F13DCE8385 /* PBXTargetDependency */,
+			);
+			name = "Pods-MEConfirmOrder";
+			productName = "Pods-MEConfirmOrder";
+			productReference = 6C82B78CE1F6D07BA656049BB24C14DB /* libPods-MEConfirmOrder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEAB383D11ED1DD9A9F97ABBE700A683 /* Pods-MEConfirmOrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EA3DB7CBF296B7B14ADF0E5BEE055A /* Build configuration list for PBXNativeTarget "Pods-MEConfirmOrderUITests" */;
+			buildPhases = (
+				2B2156791E3EB808351556DE56959891 /* Sources */,
+				529507F3708F90A885F2F77A3C29A737 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MEConfirmOrderUITests";
+			productName = "Pods-MEConfirmOrderUITests";
+			productReference = 17DEC740C802F956589A962D5B5AE745 /* libPods-MEConfirmOrderUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B42A6F9F16AE3E700BE9C2ACF317FB4A /* Pods-MEConfirmOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5389DAA4774ABC2DEC8A170C0C3876 /* Build configuration list for PBXNativeTarget "Pods-MEConfirmOrderTests" */;
+			buildPhases = (
+				999E72EDF64E1AC81854FDE007026DC7 /* Sources */,
+				47105004C653FBDF8A922D497015DFC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MEConfirmOrderTests";
+			productName = "Pods-MEConfirmOrderTests";
+			productReference = FEBE58FD67383502241B7A87683C0058 /* libPods-MEConfirmOrderTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09EF8FBD2E0C68AC43BF324969B1397A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A10F6DFFC0B8769C3B0680ED128263 /* MEProtocolManager */,
+				7EA4E62922A5F3E534B54D65E2F26FF7 /* Pods-MEConfirmOrder */,
+				B42A6F9F16AE3E700BE9C2ACF317FB4A /* Pods-MEConfirmOrderTests */,
+				AEAB383D11ED1DD9A9F97ABBE700A683 /* Pods-MEConfirmOrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2156791E3EB808351556DE56959891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01177237048D8D369D0D119E48137E7D /* Pods-MEConfirmOrderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D905562DE42A42EDA30088D7F4A3BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49780F3D9A6006D3189ADFEDC550A680 /* MEProtocolManager-dummy.m in Sources */,
+				C0FBA8C2AF3D267032E1772DFA1167C7 /* MEProtocolManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999E72EDF64E1AC81854FDE007026DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD9A84D0C4676D24D8FF40194F5E261 /* Pods-MEConfirmOrderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BECE4C5301CD2756F0B68F8AD15EDADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE852EDEDA0A85C0C09E14540305BE92 /* Pods-MEConfirmOrder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8505489D8AC56D0E89DE0F13DCE8385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MEProtocolManager;
+			target = 69A10F6DFFC0B8769C3B0680ED128263 /* MEProtocolManager */;
+			targetProxy = 06ABE5D8E367A8A6D21D4117B66B1291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F0F9FD36326CE165D1377929A1FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC3A74ACF63212CFBDB7B3ADFA71AC1 /* Pods-MEConfirmOrderTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FB9067D96466D52F1D3318FEEC0C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4357E274DD976C711C82FFED0F9684A5 /* Pods-MEConfirmOrder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C366BEC2B43EDF32AABEFD35553FFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21697509E8A786C1105730D25D025D0 /* Pods-MEConfirmOrderUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		568B7A1E67455609316DEFC2772DC9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65474A5F5964D78F076B52CC70CCE4F4 /* MEProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MEProtocolManager/MEProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7CE6630D445472DE4232052D1597D5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F325D69F89D4CF2C9324DAC08CC4528 /* Pods-MEConfirmOrderTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CDB26A05FCA21C0C3D4FA7A28FD896FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B7054BA227B534C87C864FA4F2E3F6 /* Pods-MEConfirmOrder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DADFB06F516DC6EFBFD0B07EF9B1B33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06471C5E1EB8B4BF110951C2C74A66AB /* Pods-MEConfirmOrderUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDC41943AEA5E99443680EAD7D2E7D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65474A5F5964D78F076B52CC70CCE4F4 /* MEProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MEProtocolManager/MEProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09EA3DB7CBF296B7B14ADF0E5BEE055A /* Build configuration list for PBXNativeTarget "Pods-MEConfirmOrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C366BEC2B43EDF32AABEFD35553FFFF /* Debug */,
+				DADFB06F516DC6EFBFD0B07EF9B1B33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14646F34D1477193CC25F78C0D683CD7 /* Build configuration list for PBXNativeTarget "MEProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568B7A1E67455609316DEFC2772DC9DD /* Debug */,
+				DDC41943AEA5E99443680EAD7D2E7D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5389DAA4774ABC2DEC8A170C0C3876 /* Build configuration list for PBXNativeTarget "Pods-MEConfirmOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F0F9FD36326CE165D1377929A1FABE /* Debug */,
+				7CE6630D445472DE4232052D1597D5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA83071F76B8C160FE9421FA11B130D9 /* Build configuration list for PBXNativeTarget "Pods-MEConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB26A05FCA21C0C3D4FA7A28FD896FC /* Debug */,
+				3FB9067D96466D52F1D3318FEEC0C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
