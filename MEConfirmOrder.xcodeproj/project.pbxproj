@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCB6BA21EA60EA3004802B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA11EA60EA3004802B5 /* main.m */; };
+		2CCB6BA51EA60EA3004802B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA41EA60EA3004802B5 /* AppDelegate.m */; };
+		2CCB6BA81EA60EA3004802B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA71EA60EA3004802B5 /* ViewController.m */; };
+		2CCB6BAB1EA60EA3004802B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB6BA91EA60EA3004802B5 /* Main.storyboard */; };
+		2CCB6BAD1EA60EA3004802B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB6BAC1EA60EA3004802B5 /* Assets.xcassets */; };
+		2CCB6BB01EA60EA3004802B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB6BAE1EA60EA3004802B5 /* LaunchScreen.storyboard */; };
+		2CCB6BBB1EA60EA3004802B5 /* MEConfirmOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BBA1EA60EA3004802B5 /* MEConfirmOrderTests.m */; };
+		2CCB6BC61EA60EA3004802B5 /* MEConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6BC51EA60EA3004802B5 /* MEConfirmOrderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CCB6BB71EA60EA3004802B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CCB6B951EA60EA3004802B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CCB6B9C1EA60EA3004802B5;
+			remoteInfo = MEConfirmOrder;
+		};
+		2CCB6BC21EA60EA3004802B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CCB6B951EA60EA3004802B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CCB6B9C1EA60EA3004802B5;
+			remoteInfo = MEConfirmOrder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CCB6B9D1EA60EA3004802B5 /* MEConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB6BA11EA60EA3004802B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CCB6BA31EA60EA3004802B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CCB6BA41EA60EA3004802B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CCB6BA61EA60EA3004802B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CCB6BA71EA60EA3004802B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CCB6BAA1EA60EA3004802B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CCB6BAC1EA60EA3004802B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCB6BAF1EA60EA3004802B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CCB6BB11EA60EA3004802B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCB6BB61EA60EA3004802B5 /* MEConfirmOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEConfirmOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB6BBA1EA60EA3004802B5 /* MEConfirmOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEConfirmOrderTests.m; sourceTree = "<group>"; };
+		2CCB6BBC1EA60EA3004802B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCB6BC11EA60EA3004802B5 /* MEConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB6BC51EA60EA3004802B5 /* MEConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEConfirmOrderUITests.m; sourceTree = "<group>"; };
+		2CCB6BC71EA60EA3004802B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCB6B9A1EA60EA3004802B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB6BB31EA60EA3004802B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB6BBE1EA60EA3004802B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCB6B941EA60EA3004802B5 = {
+			isa = PBXGroup;
+			children = (
+				2CCB6B9F1EA60EA3004802B5 /* MEConfirmOrder */,
+				2CCB6BB91EA60EA3004802B5 /* MEConfirmOrderTests */,
+				2CCB6BC41EA60EA3004802B5 /* MEConfirmOrderUITests */,
+				2CCB6B9E1EA60EA3004802B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCB6B9E1EA60EA3004802B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB6B9D1EA60EA3004802B5 /* MEConfirmOrder.app */,
+				2CCB6BB61EA60EA3004802B5 /* MEConfirmOrderTests.xctest */,
+				2CCB6BC11EA60EA3004802B5 /* MEConfirmOrderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCB6B9F1EA60EA3004802B5 /* MEConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB6BA31EA60EA3004802B5 /* AppDelegate.h */,
+				2CCB6BA41EA60EA3004802B5 /* AppDelegate.m */,
+				2CCB6BA61EA60EA3004802B5 /* ViewController.h */,
+				2CCB6BA71EA60EA3004802B5 /* ViewController.m */,
+				2CCB6BA91EA60EA3004802B5 /* Main.storyboard */,
+				2CCB6BAC1EA60EA3004802B5 /* Assets.xcassets */,
+				2CCB6BAE1EA60EA3004802B5 /* LaunchScreen.storyboard */,
+				2CCB6BB11EA60EA3004802B5 /* Info.plist */,
+				2CCB6BA01EA60EA3004802B5 /* Supporting Files */,
+			);
+			path = MEConfirmOrder;
+			sourceTree = "<group>";
+		};
+		2CCB6BA01EA60EA3004802B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB6BA11EA60EA3004802B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CCB6BB91EA60EA3004802B5 /* MEConfirmOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB6BBA1EA60EA3004802B5 /* MEConfirmOrderTests.m */,
+				2CCB6BBC1EA60EA3004802B5 /* Info.plist */,
+			);
+			path = MEConfirmOrderTests;
+			sourceTree = "<group>";
+		};
+		2CCB6BC41EA60EA3004802B5 /* MEConfirmOrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB6BC51EA60EA3004802B5 /* MEConfirmOrderUITests.m */,
+				2CCB6BC71EA60EA3004802B5 /* Info.plist */,
+			);
+			path = MEConfirmOrderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCB6B9C1EA60EA3004802B5 /* MEConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB6BCA1EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrder" */;
+			buildPhases = (
+				2CCB6B991EA60EA3004802B5 /* Sources */,
+				2CCB6B9A1EA60EA3004802B5 /* Frameworks */,
+				2CCB6B9B1EA60EA3004802B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEConfirmOrder;
+			productName = MEConfirmOrder;
+			productReference = 2CCB6B9D1EA60EA3004802B5 /* MEConfirmOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CCB6BB51EA60EA3004802B5 /* MEConfirmOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB6BCD1EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrderTests" */;
+			buildPhases = (
+				2CCB6BB21EA60EA3004802B5 /* Sources */,
+				2CCB6BB31EA60EA3004802B5 /* Frameworks */,
+				2CCB6BB41EA60EA3004802B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CCB6BB81EA60EA3004802B5 /* PBXTargetDependency */,
+			);
+			name = MEConfirmOrderTests;
+			productName = MEConfirmOrderTests;
+			productReference = 2CCB6BB61EA60EA3004802B5 /* MEConfirmOrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CCB6BC01EA60EA3004802B5 /* MEConfirmOrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB6BD01EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrderUITests" */;
+			buildPhases = (
+				2CCB6BBD1EA60EA3004802B5 /* Sources */,
+				2CCB6BBE1EA60EA3004802B5 /* Frameworks */,
+				2CCB6BBF1EA60EA3004802B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CCB6BC31EA60EA3004802B5 /* PBXTargetDependency */,
+			);
+			name = MEConfirmOrderUITests;
+			productName = MEConfirmOrderUITests;
+			productReference = 2CCB6BC11EA60EA3004802B5 /* MEConfirmOrderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCB6B951EA60EA3004802B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "祁鹏宇";
+				TargetAttributes = {
+					2CCB6B9C1EA60EA3004802B5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZWGDL4KU3D;
+						ProvisioningStyle = Automatic;
+					};
+					2CCB6BB51EA60EA3004802B5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZWGDL4KU3D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CCB6B9C1EA60EA3004802B5;
+					};
+					2CCB6BC01EA60EA3004802B5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZWGDL4KU3D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CCB6B9C1EA60EA3004802B5;
+					};
+				};
+			};
+			buildConfigurationList = 2CCB6B981EA60EA3004802B5 /* Build configuration list for PBXProject "MEConfirmOrder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CCB6B941EA60EA3004802B5;
+			productRefGroup = 2CCB6B9E1EA60EA3004802B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCB6B9C1EA60EA3004802B5 /* MEConfirmOrder */,
+				2CCB6BB51EA60EA3004802B5 /* MEConfirmOrderTests */,
+				2CCB6BC01EA60EA3004802B5 /* MEConfirmOrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCB6B9B1EA60EA3004802B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB6BB01EA60EA3004802B5 /* LaunchScreen.storyboard in Resources */,
+				2CCB6BAD1EA60EA3004802B5 /* Assets.xcassets in Resources */,
+				2CCB6BAB1EA60EA3004802B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB6BB41EA60EA3004802B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB6BBF1EA60EA3004802B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCB6B991EA60EA3004802B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB6BA81EA60EA3004802B5 /* ViewController.m in Sources */,
+				2CCB6BA51EA60EA3004802B5 /* AppDelegate.m in Sources */,
+				2CCB6BA21EA60EA3004802B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB6BB21EA60EA3004802B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB6BBB1EA60EA3004802B5 /* MEConfirmOrderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB6BBD1EA60EA3004802B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB6BC61EA60EA3004802B5 /* MEConfirmOrderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CCB6BB81EA60EA3004802B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CCB6B9C1EA60EA3004802B5 /* MEConfirmOrder */;
+			targetProxy = 2CCB6BB71EA60EA3004802B5 /* PBXContainerItemProxy */;
+		};
+		2CCB6BC31EA60EA3004802B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CCB6B9C1EA60EA3004802B5 /* MEConfirmOrder */;
+			targetProxy = 2CCB6BC21EA60EA3004802B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CCB6BA91EA60EA3004802B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCB6BAA1EA60EA3004802B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CCB6BAE1EA60EA3004802B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCB6BAF1EA60EA3004802B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCB6BC81EA60EA3004802B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CCB6BC91EA60EA3004802B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCB6BCB1EA60EA3004802B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZWGDL4KU3D;
+				INFOPLIST_FILE = MEConfirmOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meteorshower.MEConfirmOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CCB6BCC1EA60EA3004802B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZWGDL4KU3D;
+				INFOPLIST_FILE = MEConfirmOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meteorshower.MEConfirmOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CCB6BCE1EA60EA3004802B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZWGDL4KU3D;
+				INFOPLIST_FILE = MEConfirmOrderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meteorshower.MEConfirmOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEConfirmOrder.app/MEConfirmOrder";
+			};
+			name = Debug;
+		};
+		2CCB6BCF1EA60EA3004802B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZWGDL4KU3D;
+				INFOPLIST_FILE = MEConfirmOrderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meteorshower.MEConfirmOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEConfirmOrder.app/MEConfirmOrder";
+			};
+			name = Release;
+		};
+		2CCB6BD11EA60EA3004802B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZWGDL4KU3D;
+				INFOPLIST_FILE = MEConfirmOrderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meteorshower.MEConfirmOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MEConfirmOrder;
+			};
+			name = Debug;
+		};
+		2CCB6BD21EA60EA3004802B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZWGDL4KU3D;
+				INFOPLIST_FILE = MEConfirmOrderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meteorshower.MEConfirmOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MEConfirmOrder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCB6B981EA60EA3004802B5 /* Build configuration list for PBXProject "MEConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB6BC81EA60EA3004802B5 /* Debug */,
+				2CCB6BC91EA60EA3004802B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCB6BCA1EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB6BCB1EA60EA3004802B5 /* Debug */,
+				2CCB6BCC1EA60EA3004802B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CCB6BCD1EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB6BCE1EA60EA3004802B5 /* Debug */,
+				2CCB6BCF1EA60EA3004802B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CCB6BD01EA60EA3004802B5 /* Build configuration list for PBXNativeTarget "MEConfirmOrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB6BD11EA60EA3004802B5 /* Debug */,
+				2CCB6BD21EA60EA3004802B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CCB6B951EA60EA3004802B5 /* Project object */;
+}
